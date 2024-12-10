@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Vocal Lift",
+        "description": "Developed a mood-enhancing chatbot that transforms words into uplifting audio responses using Langchain and OpenAI's LLM. Achieved 90% response accuracy by implementing conversation memory to create meaningful interactions. Boosted user engagement by 50% through text-to-audio conversion with gTTS and Playdub, delivering an immersive auditory experience. Customized prompt templates for precise, context-aware replies, enhancing user satisfaction. Deployed the chatbot on Streamlit, offering an accessible and real-time interface for interactive user engagement.",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/1*pVbnhRc2K2a1L4wXAdul6Q.png",
+        "tags": ["LLM", "Fine-tuning","Prompting", "OpenAI"],
+        "buttons": [
+            {"text": "GitHub", "link": "https://www.github.com/tvareddy009/Mood_enhancer", "icon": "fa-brands fa-github"},
+            {"text": "Demo", "link": "#", "icon": "fa-solid fa-play"}
+        ]
+    },
+    {
+        "title": "Predicting Cognitive Decline using Transfer Learning",
+        "description": "Designed a cognitive decline prediction model using EfficientNetB4, achieving a 15% improvement in accuracy through transfer learning strategies.• Enhanced training efficiency by 30% through Hyperband tuning and early stopping, reducing training time and minimizing overfitting. Increased diagnostic reliability with EfficientNetB4’s architecture, supporting early clinical interventions.",
+        "image": "static/images/IndiLegal.png",
+        "tags": ["LLM", "Fine-tuning", "Legal", "DistilBERT"],
+        "buttons": [
+            {"text": "GitHub", "link": "https://www.github.com/tvareddy009/Cognitive_decline_prediction", "icon": "fa-brands fa-github"},
+            {"text": "Demo", "link": "#", "icon": "fa-solid fa-play"}
+        ]
+    },
+    {
+        "title": "Crown-of-Thorns Starfish (COTS) Detection using Transformers",
+        "description": "Built a Crown-of-Thorns Starfish (COTS) detection model using DETR (Detection Transformer), achieving 92% detection accuracy.• Fine-tuned a pretrained model on a dataset of 400 labeled images, reducing detection errors by 20%.• Improved training efficiency by 30% with PyTorch Lightning and optimized model performance using hyperparameter tuning, validated with a mAP score of 0.85.",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/1*pVbnhRc2K2a1L4wXAdul6Q.png",
+        "tags": ["Transformers", "SQL", "Natural Language Processing"],
+        "buttons": [
+            {"text": "GitHub", "link": "https://github.com/gnsepili/NatureQL", "icon": "fa-brands fa-github"},
+            {"text": "Demo", "link": "#", "icon": "fa-solid fa-play"}
+        ]
+    },
+    {
+        "title": "Audio Assistant based Image Captioning System: ",
+        "description": "• Developed a real time audio captioning system, enhancing navigation accuracy by 35% for visually impaired users.• Improved processing speed by 25% by refining model integrations, allowing seamless user interaction .Attained 90% user satisfaction intesting, validating context aware descriptions for real world usage.",
+        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*uehm209YApJnx4JQUU1HMw.png",
+        "tags": ["Recommendation System", "Personalization", "Myntra"],
+        "buttons": [
+            {"text": "GitHub", "link": "https://www.github.com/tvareddy009/Cognitive_decline_prediction", "icon": "fa-brands fa-github"},
+            {"text": "Demo", "link": "#", "icon": "fa-solid fa-play"}
+        ]
+    },
+    {
+        "title": "Pneumonia Detection using Deep Learning",
+        "description": "• Created a CNN based model with 93% accuracy, reducing diagnostic time by 40% for faster healthcare interventions.• Verified clinical reliability through trials, confirming suitability for diagnostic applications. Standardized model performance across diverse imaging sources, ensuring scalability in clinical environments.",
+        "image": "c",
+        "tags": ["LLM", "RAG", "Mistral7B", "Information Retrieval"],
+        "buttons": [
+            {"text": "GitHub", "link": "https://www.github.com/gnsepili/IntellectRAG", "icon": "fa-brands fa-github"},
+            {"text": "Demo", "link": "#", "icon": "fa-solid fa-play"}
+        ]
+    }
+]

@@ -1,0 +1,135 @@
+/* Button styles */
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.btn i {
+    margin-right: 0.5rem;
+}
+
+/* GitHub themed button */
+.btn-github {
+    background-color: #24292F;
+    color: white;
+    border: none;
+}
+
+.btn-github:hover {
+    background-color: #24292F90;
+}
+
+/* Demo button color */
+.btn-demo {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+}
+
+.btn-demo:hover {
+    background-color: #1D4ED8;
+}
+
+/* Tag styles */
+.tag {
+    background-color: #4A5568;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    cursor: default;
+}
+
+/* Other existing styles */
+.p-4 {
+    padding: 1rem;
+}
+
+.bg-gray-800 {
+    background-color: #2D3748;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:shadow-lg:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.transition {
+    transition: all 0.3s ease;
+}
+
+.duration-300 {
+    transition-duration: 300ms;
+}
+
+.transform {
+    transform: scale(1);
+}
+
+.hover\:scale-105:hover {
+    transform: scale(1.02);
+}
+
+.img-fixed {
+    width: 100%;
+    height: auto;
+    max-height: 8rem;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    /* Mobile view styles */
+    .tag {
+        margin-bottom: 0.5rem;
+    }
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+    }
+    .space-y-2 > * + * {
+        margin-top: 0.5rem;
+    }
+}
+
+/* New styles for the updated project cards */
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}

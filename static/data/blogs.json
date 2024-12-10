@@ -1,0 +1,16 @@
+[
+    {
+        "date": "Mar 4, 2024",
+        "title": "Building a Robust Production-Level RAG-Based LLM Application",
+        "description": "In this article, we will delve into the process of creating a production-level RAG (Retrieval-Augmented Generation) based LLM (Large Language Model) application. This guide will walk you through the architecture, data...",
+        "link": "https://ganeshepili.medium.com/building-a-robust-production-level-rag-based-llm-application-333cd0ad9cba",
+        "tags": ["RAG", "OpenAI", "Langchain", "Pinecone"]
+    },
+    {
+        "date": "June 27, 2024",
+        "title": "Demystifying Quantization Techniques in Large Language Models",
+        "description": "introducing principles and applications of semantic chunking",
+        "link": "https://ganeshepili.medium.com/demystifying-quantization-techniques-in-large-language-models-807529ef9ddc",
+        "tags": ["RAG", "OpenAI"]
+    }
+]

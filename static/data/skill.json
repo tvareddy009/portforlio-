@@ -1,0 +1,105 @@
+{
+    "Languages": [
+      {
+        "name": "Python",
+        "logo": "static/skills/py.png"
+      },
+      {
+        "name": "Javascript",
+        "logo": "static/skills/js.png"
+      },
+      {
+        "name": "C",
+        "logo": "static/skills/c.png"
+      },
+      {
+        "name": "C++",
+        "logo": "static/skills/cpp.png"
+      }
+    ],
+    "Frameworks & Libraries": [
+      {
+        "name": "LangChain",
+        "logo": "static/skills/langchain.png"
+      },
+      {
+        "name": "LlamIndex",
+        "logo": "static/skills/llamaindex.png"
+      },
+      {
+        "name": "Langgraph",
+        "logo": "static/skills/langgraph.png"
+      },
+      {
+        "name": "PyTorch",
+        "logo": "static/skills/pytorch.png"
+      },
+      {
+        "name": "Huggingface",
+        "logo": "static/skills/hf.png"
+      },
+      {
+        "name": "TensorFlow",
+        "logo": "static/skills/tf.png"
+      },
+      {
+        "name": "scikit-learn",
+        "logo": "static/skills/sklearn.png"
+      },
+      {
+        "name": "Spacy",
+        "logo": "static/skills/spacy.png"
+      },
+      {
+        "name": "NLTK",
+        "logo": "static/skills/nltk.png"
+      },
+      {
+        "name": "FastAPI",
+        "logo": "static/skills/fastapi.svg"
+      },
+      {
+        "name": "NodeJS",
+        "logo": "static/skills/node.png"
+      }
+    ],
+    "Platforms & Technologies": [
+      {
+        "name": "AWS",
+        "logo": "static/skills/aws.webp"
+      },
+      {
+        "name": "Pinecone",
+        "logo": "static/skills/pinecone.png"
+      },
+      {
+        "name": "Langfuse",
+        "logo": "static/skills/langfuse.png"
+      },
+      {
+        "name": "Databricks",
+        "logo": "static/skills/databricks.png"
+      },
+      {
+        "name": "MlFlow",
+        "logo": "static/skills/mlflow.png"
+      },
+      {
+        "name": "Git",
+        "logo": "static/skills/git.png"
+      },
+      {
+        "name": "SQL",
+        "logo": "static/skills/sql.png"
+      },
+      {
+        "name": "Docker",
+        "logo": "static/skills/docker.webp"
+      },
+      {
+        "name": "ApacheSpark",
+        "logo": "static/skills/spark.png"
+      }
+    ]
+  }
+  
