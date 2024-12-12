@@ -6,7 +6,7 @@ document.querySelector('[data-collapse-toggle]').addEventListener('click', funct
 
 async function fetchProjects() {
     try {
-        const response = await fetch('./static/data/projects.json');
+        const response = await fetch('../static/data/projects.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
