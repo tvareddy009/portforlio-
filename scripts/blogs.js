@@ -5,7 +5,7 @@ document.querySelector('[data-collapse-toggle]').addEventListener('click', funct
 });
 
 async function fetchBlogs() {
-    const response = await fetch('static/data/blogs.json');
+    const response = await fetch('./static/data/blogs.json');
     const blogs = await response.json();
     return blogs;
 }
