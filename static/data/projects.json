@@ -1,5 +1,14 @@
 [
     {
+        "title": "SkinScope AI – Skincare Ingredient Safety Analyzer",
+        "image": "static/images/skinscope.png",
+        "description": "Built an AI-powered skincare assistant that analyzes uploaded product images, performs OCR-based ingredient extraction, and uses LangChain RAG + FAISS retrieval to verify safety levels against dermatology and toxicology datasets. Integrated canonicalization and contextual safety-explanation chains, reducing manual ingredient research time by 90%.",
+        "tech": ["RAG", "LangChain", "FAISS", "OCR", "OpenAI", "Healthcare AI"],
+        "github": "https://github.com/tvareddy009/skinscope_ai",
+        "demo": "https://skinscope-ai.replit.app"
+      }
+      
+    {
         "title": "Women Health Bot",
         "description": "I developed an AI Women Healthcare Chatbot using advanced NLU techniques to address women’s health concerns like symptom assessment, menstrual tracking, and mental wellness. It provides personalized, evidence-based guidance while ensuring privacy and security. This accessible tool empowers women to make informed health decisions and connects them to essential resources..",
         "image": "https://www.mdpi.com/applsci/applsci-14-05889/article_deploy/html/images/applsci-14-05889-g001.png",
