@@ -5,86 +5,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <title>Home | Akhila Reddy Tatipally</title>
+  <title>Contact | Venkat Akhila Reddy Tatipally</title>
   <link rel="icon" href="static/images/logo.png" type="image/x-icon" />
+
+  <style>
+    /* Fade-in animation */
+    @keyframes fadeUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .fade-up { animation: fadeUp 0.9s ease-out forwards; }
+
+    /* Button hover glow */
+    .hover-glow:hover {
+      box-shadow: 0 0 15px rgba(255,255,255,0.2);
+      transform: translateY(-3px);
+    }
+  </style>
 </head>
 
-<body class="flex flex-col min-h-screen bg-gray-900 text-white">
+<body class="flex flex-col min-h-screen bg-[#0f172a] text-white">
 
 <!-- ✅ Navbar -->
-<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+<nav class="bg-[#0f172a] fixed w-full z-20 top-0 start-0 border-b border-gray-800">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="index.html" class="flex items-center space-x-3">
-      <span class="text-2xl font-semibold dark:text-white">
-        Venkat Akhila Reddy <span class="text-blue-500">Tatipally</span>
+      <span class="text-2xl font-semibold text-white">
+        Venkat Akhila Reddy <span class="text-blue-400">Tatipally</span>
       </span>
     </a>
     <div class="flex md:order-2">
       <a href="/RESUME-2.pdf" target="_blank"
-         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700">
+         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2">
         Download Resume
       </a>
     </div>
     <div class="hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-      <ul class="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0 font-medium border border-gray-100 md:border-0 bg-gray-50 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900">
-        <li><a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-500">Home</a></li>
-        <li><a href="about.html" class="block py-2 px-3 text-gray-300 hover:text-blue-500">About</a></li>
-        <li><a href="project.html" class="block py-2 px-3 text-gray-300 hover:text-blue-500">Projects</a></li>
-        <li><a href="experience.html" class="block py-2 px-3 text-gray-300 hover:text-blue-500">Experience</a></li>
-        <li><a href="contact.html" class="block py-2 px-3 text-gray-300 hover:text-blue-500">Contact</a></li>
+      <ul class="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0 font-medium">
+        <li><a href="index.html" class="block py-2 px-3 text-gray-300 hover:text-blue-400">Home</a></li>
+        <li><a href="about.html" class="block py-2 px-3 text-gray-300 hover:text-blue-400">About</a></li>
+        <li><a href="project.html" class="block py-2 px-3 text-gray-300 hover:text-blue-400">Projects</a></li>
+        <li><a href="experience.html" class="block py-2 px-3 text-gray-300 hover:text-blue-400">Experience</a></li>
+        <li><a href="contact.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-400">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- ✅ Hero Section -->
-<main class="flex-grow flex items-center justify-center pt-24 pb-16">
-  <div class="max-w-screen-xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-    
-    <!-- Left: Text Section -->
-    <div class="space-y-6 text-center md:text-left">
-      <h1 class="text-4xl font-extrabold leading-tight">
-        Hey There! <span class="animate-waving-hand">👋</span><br>
-        I'm <span class="text-blue-400">Akhila Reddy Tatipally</span>
-      </h1>
-      <p class="text-gray-300 text-lg leading-relaxed">
-        AI Engineer and Research Assistant passionate about building 
-        <span class="text-blue-400">Agentic AI systems, RAG pipelines, and LLM fine-tuning</span> for real-world cognitive and psychological applications.
-      </p>
+<!-- ✅ Animated Contact Section -->
+<main class="flex-grow flex flex-col items-center justify-center text-center px-6 mt-32 fade-up">
+  <img src="static/images/contact-illustration.png" alt="Contact Illustration" class="w-40 mb-6 fade-up" style="animation-delay: 0.1s;">
 
-      <div class="flex flex-wrap justify-center md:justify-start gap-4">
-        <a href="about.html" 
-           class="px-5 py-3 bg-blue-700 hover:bg-blue-800 text-white rounded-lg font-medium transition">
-           Hire Me
-        </a>
-        <a href="project.html" 
-           class="px-5 py-3 border border-gray-600 text-gray-300 hover:bg-gray-800 rounded-lg font-medium transition">
-           <i class="fab fa-github mr-2"></i> See My Work
-        </a>
-      </div>
-    </div>
+  <h1 class="text-3xl font-bold text-white mb-3 fade-up" style="animation-delay: 0.2s;">
+    Contact Me
+  </h1>
+  <p class="text-gray-300 max-w-2xl leading-relaxed mb-8 fade-up" style="animation-delay: 0.3s;">
+    I’m passionate about building <span class="text-blue-400">LLM, Agentic AI, and RAG-based systems</span>.  
+    Whether you want to collaborate, discuss AI research, or explore engineering roles — I’d love to connect!
+  </p>
 
-    <!-- Right: Profile Image -->
-    <div class="flex justify-center md:justify-end">
-      <img src="static/images/profile.jpg" alt="Akhila Reddy Tatipally" 
-           class="w-64 h-64 rounded-full object-cover shadow-lg transform scale-x-[-1] border-2 border-gray-700" />
-    </div>
-  </div>
-</main>
-
-<!-- ✅ Footer -->
-<footer class="bg-gray-950 text-gray-400 py-6 mt-auto">
-  <div class="flex flex-wrap justify-center gap-6 text-sm">
-    <a href="https://github.com/tvareddy009" target="_blank" class="hover:text-blue-400 flex items-center gap-2"><i class="fab fa-github"></i> GitHub</a>
-    <a href="https://www.linkedin.com/in/venkat-akhila-reddy-tatipally" target="_blank" class="hover:text-blue-400 flex items-center gap-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
-    <a href="mailto:tvareddy009@gmail.com" class="hover:text-blue-400 flex items-center gap-2"><i class="fas fa-envelope"></i> Email</a>
-    <a href="https://leetcode.com/u/Akhilaaa/" target="_blank" class="hover:text-blue-400 flex items-center gap-2"><i class="fas fa-code"></i> LeetCode</a>
+  <div class="flex flex-wrap justify-center gap-4 mb-12 fade-up" style="animation-delay: 0.4s;">
+    <a href="mailto:tvareddy009@gmail.com" target="_blank"
+       class="flex items-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 hover-glow rounded-lg transition">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+    <a href="https://github.com/tvareddy009" target="_blank"
+       class="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 hover-glow rounded-lg transition">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/venkat-akhila-reddy-tatipally" target="_blank"
+       class="flex items-center gap-2 px-4 py-2 bg-blue-700 hover:bg-blue-800 hover-glow rounded-lg transition">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://leetcode.com/u/Akhilaaa/" target="_blank"
+       class="flex items-center gap-2 px-4 py-2 bg-yellow-400 hover:bg-yellow-500 text-black font-semibold rounded-lg transition hover-glow">
+      <i class="fas fa-code"></i> LeetCode
+    </a>
   </div>
 
-  <div class="mt-4 text-center text-gray-500 text-xs">
+  <div class="border-t border-gray-700 w-24 my-4 fade-up" style="animation-delay: 0.5s;"></div>
+  <p class="text-gray-500 text-sm fade-up" style="animation-delay: 0.6s;">
     Designed & built with ❤️ by <span class="text-blue-400">Akhila Reddy Tatipally</span>
-  </div>
-</footer>
+  </p>
+</main>
 
 </body>
 </html>
