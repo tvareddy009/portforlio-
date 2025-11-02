@@ -4,8 +4,8 @@
       "image": "static/images/skinscope.png",
       "description": "Built an AI-powered skincare assistant that analyzes uploaded product images, performs OCR-based ingredient extraction, and uses LangChain RAG + FAISS retrieval to verify safety levels against dermatology and toxicology datasets. Integrated canonicalization and contextual safety-explanation chains, reducing manual ingredient research time by 90%.",
       "tech": ["RAG", "LangChain", "FAISS", "OCR", "OpenAI", "Healthcare AI"],
-      "github": "https://github.com/tvareddy009/skinscope_ai",
-      "demo": "https://github.com/tvareddy009/skinscope_ai"
+      "github": "https://github.com/tvareddy009/SkinScopeAI",
+      "demo": "https://github.com/tvareddy009/SkinScopeAI"
     },
     {
       "title": "Women Health Bot",
