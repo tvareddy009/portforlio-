@@ -9,7 +9,7 @@ document
 // Fetch projects
 async function fetchProjects() {
   try {
-    const response = await fetch("/static/data/projects.json");
+   const response = await fetch("static/data/projects.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     const projects = await response.json();
     console.log("✅ Projects loaded:", projects);
