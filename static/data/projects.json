@@ -33,7 +33,7 @@
     },
     {
       "title": "Crown-of-Thorns Starfish (COTS) Detection using Transformers",
-      "image": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9c096bed-e908-49da-a716-f8a78de952a3_1358x892.png",
+      "image": "static/images/Starfish.png",
       "description": "Developed a DETR-based transformer model for marine species detection, reaching 92% accuracy and 0.85 mAP. Fine-tuned on 400 coral-reef images, reducing detection errors by 20% with PyTorch Lightning and hyperparameter optimization.",
       "tech": ["Transformers", "DETR", "PyTorch", "Computer Vision"],
       "github": "https://github.com/tvareddy009/CTOS",
@@ -41,7 +41,7 @@
     },
     {
       "title": "Audio Assistant Based Image Captioning System",
-      "image": "https://user-images.githubusercontent.com/118840480/203821200-b3ffa7b7-fb5c-44bb-a3da-699a97dac918.png",
+      "image": "static/images/AudioAssistant.png",
       "description": "Developed a real-time audio captioning system using CNN-LSTM, improving navigation accuracy by 35% for visually impaired users. Enhanced model integration and achieved 90% satisfaction on usability testing.",
       "tech": ["CNN", "LSTM", "NLP", "Audio Processing"],
       "github": "https://github.com/tvareddy009/Cognitive_decline_prediction",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Pneumonia Detection using Deep Learning",
-      "image": "https://www.researchgate.net/publication/358898594/figure/fig4/AS:1128296054034439@1646018150928/Schematic-structure-of-a-Convolutional-Neural-Network-CNN.ppm",
+      "image": "static/images/Pneumonia.png",
       "description": "Built a CNN-based model achieving 93% accuracy for pneumonia detection and reduced diagnosis time by 40%. Standardized performance across imaging datasets to ensure clinical reliability and scalability.",
       "tech": ["CNN", "Deep Learning", "Image Classification"],
       "github": "https://github.com/gnsepili/IntellectRAG",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Tollywood Movie Recommendation System",
-      "image": "https://editor.analyticsvidhya.com/uploads/88506recommendation%20system.png",
+      "image": "static/images/Rec_system.png",
       "description": "Developed a personalized movie recommender using collaborative filtering and LLM-powered embeddings for Tollywood cinema. Improved user engagement with accurate genre-based recommendations and interactive UX.",
       "tech": ["LLM", "Mistral7B", "RAG", "Information Retrieval"],
       "github": "https://github.com/tvareddy009/Tollywood_movie_recommender",
