@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="style/navbar.css">
-  <link rel="stylesheet" href="style/about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style/navbar.css" />
+  <link rel="stylesheet" href="style/about.css" />
   <title>Venkat Akhila Reddy Tatipally - About Me</title>
-  <link rel="icon" href="static/images/logo.png" type="image/x-icon">
+  <link rel="icon" href="static/images/logo.png" type="image/x-icon" />
+  <style>
+    .tech-icon {
+      transition: all 0.3s ease;
+    }
+    .tech-icon:hover {
+      transform: scale(1.15);
+      box-shadow: 0 0 15px rgba(59,130,246,0.6);
+    }
+  </style>
 </head>
 
 <body class="flex flex-col min-h-screen bg-white dark:bg-gray-900">
@@ -17,22 +26,30 @@
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Venkat Akhila Reddy
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+        Venkat Akhila Reddy
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-blue-500">Tatipally</span>
       </span>
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <a href="/RESUME-2.pdf" target="_blank" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Download Resume</a>
-      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+      <a href="/RESUME-2.pdf" target="_blank"
+         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        Download Resume
+      </a>
+      <button data-collapse-toggle="navbar-sticky" type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-sticky" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15" />
         </svg>
       </button>
     </div>
 
     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul
+        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li><a href="index.html" class="block py-2 px-3 text-gray-900 hover:text-blue-700 md:p-0 dark:text-white">Home</a></li>
         <li><a href="about.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500">About</a></li>
         <li><a href="project.html" class="block py-2 px-3 text-gray-900 hover:text-blue-700 md:p-0 dark:text-white">Projects</a></li>
@@ -47,33 +64,32 @@
 <main class="flex-grow container mx-auto mt-24 p-6">
   <section>
     <div class="flex flex-col md:flex-row items-center">
-      <img class="w-32 h-32 rounded-full mb-4 md:mb-0 md:mr-8" src="static/images/profile.png" alt="Venkat Akhila Reddy Tatipally">
+      <img class="w-32 h-32 rounded-full mb-4 md:mb-0 md:mr-8" src="static/images/profile.png" alt="Venkat Akhila Reddy Tatipally" />
       <div>
         <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Venkat Akhila Reddy Tatipally</h1>
         <p class="text-gray-700 dark:text-gray-300">🤖 AI Engineer & Research Assistant</p>
-        <p class="text-gray-700 dark:text-gray-300">📍 Dearborn, Michigan</p>
+        <p class="text-gray-700 dark:text-gray-300">📍 Troy, Michigan</p>
         <p class="text-gray-700 dark:text-gray-300">
-          📧 Email:
-          <a href="mailto:tvareddy009@gmail.com" class="text-blue-500">tvareddy009@gmail.com</a>
+          📧 Email: <a href="mailto:tvareddy009@gmail.com" class="text-blue-500">tvareddy009@gmail.com</a>
         </p>
       </div>
     </div>
   </section>
 
   <div class="mt-8">
-    <p class="text-gray-300 mb-4 leading-relaxed" style="font-size: 1.1rem;">
+    <p class="text-gray-300 mb-4 leading-relaxed text-lg">
       Hi! I’m <span class="font-semibold text-white">Venkat Akhila Reddy Tatipally</span>, an <span class="text-blue-400">AI Engineer and Research Assistant</span> at the <span class="text-blue-400">University of Michigan – Dearborn</span>.  
-      I specialize in building <span class="text-blue-400">LLM-powered psychological assessment systems</span> and <span class="text-blue-400">agentic AI pipelines</span> that connect language understanding with cognitive modeling.  
+      I specialize in building <span class="text-blue-400">LLM-powered psychological assessment systems</span> and <span class="text-blue-400">agentic AI pipelines</span> connecting language understanding with cognitive modeling.
     </p>
 
-    <p class="text-gray-300 mb-4 leading-relaxed" style="font-size: 1.1rem;">
-      My research focuses on fine-tuning and evaluating large language models (e.g., <span class="text-blue-400">Mistral, Gemma, LLaMA, OpenChat</span>) for narrative-based scoring of psychological dimensions such as <span class="text-blue-400">EIR (Emotional Investment in Relationships)</span> and <span class="text-blue-400">COM (Complexity of Representation)</span>.  
-      I’ve developed multi-agent systems using <span class="text-blue-400">LangChain</span> and <span class="text-blue-400">LangGraph</span> with <span class="text-blue-400">JSON Schema validation, guardrails, and structured output parsing</span> for safe reasoning.
+    <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+      My research focuses on fine-tuning and evaluating large language models (Mistral, Gemma, LLaMA, OpenChat) for narrative-based scoring of psychological dimensions such as <span class="text-blue-400">EIR</span> and <span class="text-blue-400">COM</span>.  
+      I’ve developed agentic systems using <span class="text-blue-400">LangChain</span> and <span class="text-blue-400">LangGraph</span> with guardrails and structured output validation.
     </p>
 
-    <p class="text-gray-300 mb-4 leading-relaxed" style="font-size: 1.1rem;">
-      My current work contributes to research accepted for the <span class="text-blue-400">Frontiers in AI Special Issue on Generative AI & Medicine</span> and the <span class="text-blue-400">Canadian Psychological Association (CPA) 2025 Conference</span>.  
-      I aim to create interpretable AI systems that bridge human emotion, cognition, and computation.
+    <p class="text-gray-300 leading-relaxed text-lg">
+      My work contributes to the <span class="text-blue-400">Frontiers in AI Special Issue (Generative AI & Medicine)</span> and the <span class="text-blue-400">CPA 2025 Conference</span>.  
+      I aim to create interpretable AI systems bridging emotion, cognition, and computation.
     </p>
   </div>
 
@@ -85,10 +101,10 @@
         <img class="w-8 h-8 mr-4" src="static/images/daiict.png" alt="UMICH">
         <div>
           <h3 class="text-xl font-semibold text-blue-400">Master’s in Computer and Information Science</h3>
-          <p class="institution text-gray-400">University of Michigan – Dearborn</p>
+          <p class="text-gray-400">University of Michigan – Dearborn</p>
         </div>
       </div>
-      <p class="right-align text-gray-500 italic text-sm">Jan 2024 – Jan 2026</p>
+      <p class="text-gray-500 italic text-sm">Jan 2024 – Jan 2026</p>
     </div>
 
     <div class="hover-effect p-4 flex flex-col md:flex-row md:justify-between">
@@ -96,10 +112,10 @@
         <img class="w-8 h-8 mr-4" src="static/images/lpu.png" alt="SNIST">
         <div>
           <h3 class="text-xl font-semibold text-blue-400">B.Tech in Electronics and Computer Engineering</h3>
-          <p class="institution text-gray-400">Sreenidhi Institute of Science and Technology</p>
+          <p class="text-gray-400">Sreenidhi Institute of Science and Technology</p>
         </div>
       </div>
-      <p class="right-align text-gray-500 italic text-sm">2019 – 2023</p>
+      <p class="text-gray-500 italic text-sm">2019 – 2023</p>
     </div>
   </section>
 
@@ -108,26 +124,81 @@
     <h2 class="title text-2xl font-bold text-white">🏅 Courses & Certifications</h2>
     <div class="hover-effect mb-4 p-4 flex flex-col md:flex-row md:justify-between">
       <div class="flex items-center">
-        <img class="w-8 h-8 mr-4" src="https://education.oracle.com/file/general/OCI_Gen_AI_2024_v2.png" alt="OCI">
+        <img class="w-8 h-8 mr-4" src="https://education.oracle.com/file/general/OCI_Gen_AI_2024_v2.png" alt="Oracle" />
         <div>
           <h3 class="text-xl font-semibold text-blue-400">Smart Interviews – Smart Coder Gold Certification</h3>
-          <p class="institution text-gray-400">
-            <span>Oracle</span>
-            <a href="https://smartinterviews.in/" target="_blank" rel="noopener noreferrer" class="text-blue-500 underline inline-flex items-center">
-              <i class="fas fa-link mr-1"></i> Certificate
-            </a>
-          </p>
+          <p class="text-gray-400">Oracle • 2022</p>
         </div>
       </div>
-      <p class="right-align text-gray-500 italic text-sm">2022</p>
     </div>
   </section>
 
-  <!-- ✅ Skills -->
+  <!-- ✅ Full Skills Section -->
   <section class="glass-card mb-12 mt-8">
-    <h2 class="title text-2xl font-bold text-white">🧠 Core AI Stack</h2>
-    <div id="skills-container" class="grid gap-6">
-      <!-- Skills populated dynamically via skill-fetch.js -->
+    <h2 class="title text-2xl font-bold text-white">🧠 Skills</h2>
+
+    <!-- Core AI & ML -->
+    <div class="mt-6">
+      <h3 class="text-xl font-semibold text-blue-400 mb-3">Core AI & ML Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="static/icons/llm.png" class="tech-icon w-16 mx-auto" title="LLMs, LoRA/PEFT, Evaluation" />
+        <img src="static/icons/langchain.png" class="tech-icon w-16 mx-auto" title="LangChain / LangGraph" />
+        <img src="static/icons/rag.png" class="tech-icon w-16 mx-auto" title="RAG - FAISS / Chroma / Semantic Search" />
+        <img src="static/icons/pytorch.png" class="tech-icon w-16 mx-auto" title="PyTorch / TensorFlow" />
+      </div>
+    </div>
+
+    <!-- Backend & Deployment -->
+    <div class="mt-10">
+      <h3 class="text-xl font-semibold text-blue-400 mb-3">⚙️ Backend & Deployment</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="static/icons/fastapi.png" class="tech-icon w-16 mx-auto" title="FastAPI / Flask APIs" />
+        <img src="static/icons/aws.png" class="tech-icon w-16 mx-auto" title="AWS / SageMaker / Bedrock" />
+        <img src="static/icons/docker.png" class="tech-icon w-16 mx-auto" title="Docker / CI-CD" />
+        <img src="static/icons/github.png" class="tech-icon w-16 mx-auto" title="GitHub Actions / Cloud Build" />
+      </div>
+    </div>
+
+    <!-- RAG Infrastructure -->
+    <div class="mt-10">
+      <h3 class="text-xl font-semibold text-blue-400 mb-3">🧩 Data & RAG Infrastructure</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="static/icons/faiss.png" class="tech-icon w-16 mx-auto" title="FAISS / Pinecone / Weaviate" />
+        <img src="static/icons/python.png" class="tech-icon w-16 mx-auto" title="Data Engineering - Pandas / NumPy / spaCy" />
+        <img src="static/icons/opencv.png" class="tech-icon w-16 mx-auto" title="OpenCV / OCR / Preprocessing" />
+        <img src="static/icons/neo4j.png" class="tech-icon w-16 mx-auto" title="GraphDB / Neo4j" />
+      </div>
+    </div>
+
+    <!-- Programming & Tools -->
+    <div class="mt-10">
+      <h3 class="text-xl font-semibold text-blue-400 mb-3">💻 Programming & Tools</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="static/icons/python.png" class="tech-icon w-16 mx-auto" title="Python / C++ / JavaScript" />
+        <img src="static/icons/vscode.png" class="tech-icon w-16 mx-auto" title="VSCode / Replit / Jupyter" />
+        <img src="static/icons/git.png" class="tech-icon w-16 mx-auto" title="Git / GitHub / GitLab" />
+        <img src="static/icons/huggingface.png" class="tech-icon w-16 mx-auto" title="Transformers / Hugging Face" />
+      </div>
+    </div>
+
+    <!-- Frontend -->
+    <div class="mt-10">
+      <h3 class="text-xl font-semibold text-blue-400 mb-3">🎨 Frontend & Visualization</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="static/icons/react.png" class="tech-icon w-16 mx-auto" title="React / Tailwind / JS" />
+        <img src="static/icons/plotly.png" class="tech-icon w-16 mx-auto" title="Plotly / Matplotlib / Seaborn" />
+      </div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="mt-10">
+      <h3 class="text-xl font-semibold text-blue-400 mb-3">🧾 Soft Skills & Research</h3>
+      <ul class="text-gray-300 space-y-1 list-disc ml-6">
+        <li>Technical Writing (Frontiers in AI 2025 / CPA 2025)</li>
+        <li>Research Methodology & Experimentation (LLM Evaluation, Psychometric Modeling)</li>
+        <li>Cross-Functional Collaboration with Faculty & ML Engineers</li>
+        <li>Presentation & Documentation (LaTeX, Markdown, Google Scholar formatting)</li>
+      </ul>
     </div>
   </section>
 </main>
