@@ -1,7 +1,7 @@
 [
     {
       "title": "SkinScope AI – Skincare Ingredient Safety Analyzer",
-      "image": "static/images/skinscope.png",
+      "image": "static/images/SkinscopeAI.png",
       "description": "Built an AI-powered skincare assistant that analyzes uploaded product images, performs OCR-based ingredient extraction, and uses LangChain RAG + FAISS retrieval to verify safety levels against dermatology and toxicology datasets. Integrated canonicalization and contextual safety-explanation chains, reducing manual ingredient research time by 90%.",
       "tech": ["RAG", "LangChain", "FAISS", "OCR", "OpenAI", "Healthcare AI"],
       "github": "https://github.com/tvareddy009/SkinScopeAI",
@@ -9,7 +9,7 @@
     },
     {
       "title": "Women Health Bot",
-      "image": "https://www.mdpi.com/applsci/applsci-14-05889/article_deploy/html/images/applsci-14-05889-g001.png",
+      "image": "static/images/Women_Health_Bot.png",
       "description": "Developed an AI-powered women’s health chatbot using advanced NLU and LLMs for symptom assessment, menstrual tracking, and mental wellness support. Delivered 95% accurate responses and privacy-first recommendations for accessible digital healthcare.",
       "tech": ["LLM", "LangChain", "OpenAI", "Fine-tuning"],
       "github": "https://github.com/tvareddy009/women_health_chat_bot",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Mood Enhancer – Conversational AI Agent",
-      "image": "https://user-images.githubusercontent.com/29454499/255523209-d9336491-c7ba-4dc1-98f0-07f23743ce89.png",
+      "image": "static/images/Mood Enhancer.png",
       "description": "Built a mood-enhancing chatbot that transforms text into uplifting audio using LangChain + OpenAI’s LLM. Integrated conversation memory for context-aware replies and deployed gTTS audio output for immersive user engagement. Achieved 90% satisfaction scores.",
       "tech": ["LangChain", "OpenAI", "Conversational AI", "gTTS"],
       "github": "https://github.com/tvareddy009/Mood_enhancer",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Predicting Cognitive Decline using Transfer Learning",
-      "image": "https://www.topbots.com/wp-content/uploads/2019/12/cover_transfer_learning_1600px_web.jpg",
+      "image": "static/images/Cognitive decline.png",
       "description": "Designed an EfficientNetB4 model for MRI-based Alzheimer’s detection, improving accuracy by 15% through transfer learning and early stopping. Achieved faster convergence (−30% training time) via Hyperband tuning for clinical-grade reliability.",
       "tech": ["TensorFlow", "EfficientNetB4", "Transfer Learning"],
       "github": "https://github.com/tvareddy009/Cognitive_decline_prediction",
